@@ -1,0 +1,7 @@
+### IntelliJ IDE
+.idea/
+
+### For safety reasons, these are excluded from git entirely
+password.txt
+dict.txt
+*.txt
