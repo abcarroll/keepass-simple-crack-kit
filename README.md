@@ -1,9 +1,9 @@
-# keepass-crack-kit
+# keepass-simple-crack-kit
 A cobble of Perl and PHP scripts to SLOWLY brute force KeePass 1.x and 2.x databases
 
 **If you are planning on running over 10,000 - 50,000 passwords, this will not suit your needs without substantial modification, if at all.**
 
-keepass-crack-kit is a simple example that I used to crack my own KeePass database generated from the TAILS KeePassX.  I already *approximately* knew my 
+keepass-simple-crack-kit is a simple example that I used to crack my own KeePass database generated from the TAILS KeePassX.  I already *approximately* knew my 
 password and only had to run through a few thousand keys.  If this sounds like your scenario, read on.  If you are unable to hand-modify perl and PHP scripts,
 you will need to find something else.  If you can, read on.
 
@@ -12,9 +12,9 @@ you will need to find something else.  If you can, read on.
 There is no `dict.txt` or `password.txt` distributed with this repository, these files are absolutely required.  There is little to no error handling within
 these scripts, so you will need to figure out any error situations on your own.  
 
-    git clone https://github.com/abcarroll/keepass-crack-kit.git
-    chmod -R 000 keepass-crack-kit; 
-    chmod -R u+rwX keepass-crack-kit;
+    git clone https://github.com/abcarroll/keepass-simple-crack-kit.git
+    chmod -R 000 keepass-simple-crack-kit; 
+    chmod -R u+rwX keepass-simple-crack-kit;
     cd keepass-crack kit;
     touch dict.txt;
     touch password.txt;
@@ -55,5 +55,5 @@ help someone save the nearly 3 hours it took for me figure out `File::KeePass` i
  
 ### License
 
-keepass-crack-kit was thrown together by A.B. Carroll <ben@hl9.net>.  It is released under public domain, or the MIT license, whichever you prefer and is 
+keepass-simple-crack-kit was thrown together by A.B. Carroll <ben@hl9.net>.  It is released under public domain, or the MIT license, whichever you prefer and is 
 legally applicable.
